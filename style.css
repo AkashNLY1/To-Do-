@@ -1,0 +1,93 @@
+
+/* STYLE ALL */
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER */
+
+.header{
+    text-align: center;
+    background-color:  #DFF7F8 ;
+}
+.header h1{
+    color: #547980 ;
+}
+
+/* Add TASK - form with text input(tname),addBtn */
+
+.tadd input{
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #547980;
+}
+.tadd button{
+    color: aliceblue;
+    width: 30px;
+    height: 25px;
+    background-color: #64b8c9;
+    border-color: #45A29E;
+    border-radius: 5px;
+}
+
+/* TASK LIST */
+
+#preload,#alert1{
+    background-color: rgb(196, 204, 203);
+    border-radius: 5%;
+    font-size: small;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#alert1{
+    width: 27%;
+    margin-left: 36.5%;
+    margin-top: 40px;
+    visibility: hidden;   
+}
+
+.tlist{
+    width: 31%;
+    margin-left: 35%;
+}
+.titem{
+    background-color:rgb(190, 205, 215);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+/* TASK NAME - (tname) */
+.titem p{
+    display: inline-block;
+    margin-left: 5%;
+    width: 70%;
+}
+
+/* TASK BUTTONS - (del-btn, done-btn) */
+
+.tlist .btn{
+    display: inline-block;
+}
+.del-btn{
+    background-color: rgb(255, 114, 114);
+    border-radius: 100%;
+    width: 10px;
+    height: 15px;
+}
+.done-btn{
+    background-color: rgb(26, 216, 67);
+    border-radius: 100%;
+    width: 10px;
+    height: 15px;
+}
+
+
